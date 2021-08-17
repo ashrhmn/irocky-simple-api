@@ -21,13 +21,13 @@ app.post('/api/word/:arg', (req, res) => {
 })
 
 app.get('/',(req,res)=>{
-    res.send(‘
+    res.send(`
         <ol>
             <li><a href="/api/random/"></a></li>
             <li><a href="/api/random/100"></a></li>
             <li></li>
         </ol>
-    ‘)
+    `)
 })
 
 
