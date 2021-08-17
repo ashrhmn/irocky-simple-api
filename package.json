@@ -1,0 +1,8 @@
+{
+  "name": "irocky-simple-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ashrhmn/irocky-simple-api.git",
+  "author": "Ashik Rahman <ashrhmn99@gmail.com>",
+  "license": "MIT"
+}
