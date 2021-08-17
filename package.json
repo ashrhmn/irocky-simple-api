@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:ashrhmn/irocky-simple-api.git",
   "author": "Ashik Rahman <ashrhmn99@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
