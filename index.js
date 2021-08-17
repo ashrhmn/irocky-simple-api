@@ -23,8 +23,8 @@ app.post('/api/word/:arg', (req, res) => {
 app.get('/',(req,res)=>{
     res.send(`
         <ol>
-            <li><a href="/api/random/"></a></li>
-            <li><a href="/api/random/100"></a></li>
+            <li><a href="/api/random/">Random</a></li>
+            <li><a href="/api/random/100">Random Max</a></li>
             <li></li>
         </ol>
     `)
