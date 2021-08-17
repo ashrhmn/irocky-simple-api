@@ -1,11 +1,14 @@
 {
-  "name": "irocky-simple-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:ashrhmn/irocky-simple-api.git",
-  "author": "Ashik Rahman <ashrhmn99@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "irocky-simple-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:ashrhmn/irocky-simple-api.git",
+    "author": "Ashik Rahman <ashrhmn99@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "npm start"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
