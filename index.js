@@ -10,7 +10,7 @@ app.get('/api/random/:max', (req, res) => {
 
 app.get('/api/random', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify({ number: Math.random() }));
+    res.end(JSON.stringify({ number: Math.floor(Math.random() * 1023 }));
 })
 
 app.post('/api/word/:arg', (req, res) => {
