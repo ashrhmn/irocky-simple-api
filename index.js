@@ -20,6 +20,15 @@ app.post('/api/word/:arg', (req, res) => {
     res.end(JSON.stringify({ vowel_count: count }));
 })
 
+app get('/',(req,res)=>{
+    res.send(‘
+        <ol>
+            <li><a href="/api/random/"></a></li>
+            <li><a href="/api/random/100"></a></li>
+            <li></li>
+        </ol>
+    ‘)
+})
 
 
 const PORT = process.env.PORT || 5000;
