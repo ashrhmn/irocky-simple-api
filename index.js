@@ -1,5 +1,8 @@
+const cors = require('cors')
+
 const app = require('express')();
 
+app.use(cors({ origin: '*' }))
 
 app.get('/api/random/:max', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
@@ -20,7 +23,7 @@ app.post('/api/word/:arg', (req, res) => {
     res.end(JSON.stringify({ vowel_count: count }));
 })
 
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
     res.send(`
         <ol>
             <li><a href="/api/random/">Random</a></li>
